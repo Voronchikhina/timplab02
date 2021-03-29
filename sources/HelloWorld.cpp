@@ -1,7 +1,7 @@
-#include using namespace std;
+#include <iostream>;
 int main () {
-string ima;
-cin>>ima;
-cout << "Hello world"<<ima<<endl;
+std::string ima;
+std::cin>>ima;//Enter name
+std::cout << "Hello world"<<ima<<std::endl;//Output hello world and name
 return 0;
 }
