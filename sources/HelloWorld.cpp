@@ -1,2 +1,7 @@
 #include using namespace std;
-int main () {cout << "Hello world"; return 0;}
+int main () {
+string ima;
+cin>>ima;
+cout << "Hello world"<<ima<<endl;
+return 0;
+}
